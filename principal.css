@@ -1,0 +1,60 @@
+/* style_index.css - Azul Claro Minimalista */
+body {
+    background-color: #f0f4f8;
+    color: #334155;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+.titulo {
+    color: #1e3a8a;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.descripcion {
+    text-align: center;
+    color: #64748b;
+    max-width: 550px;
+    margin: 0 auto 30px auto;
+}
+
+.menu {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto 30px auto;
+    border-collapse: collapse;
+}
+
+.menu th {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    padding: 14px;
+    transition: background 0.2s;
+}
+
+.menu th:hover {
+    background: #e0f2fe;
+}
+
+.menu th a, p a {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.banner {
+    display: block;
+    max-width: 75%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border: 1px solid #bae6fd;
+}
